@@ -1,0 +1,24 @@
+
+.main-container{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    border: 0.5px solid var(--light-grey);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+}
+
+.image-container{
+    position: relative;
+    display: flex;
+    border-right: 1px solid var(--light-grey);
+    width: 50%;
+    flex-direction: column;
+}
+
+.image-content{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 7rem;
+}
